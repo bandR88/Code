@@ -1,8 +1,9 @@
-x = ''
-
+x = 'oiuooogydsfpo'
+count = 0
 while len(x) <= 5:
     y = input('Введи данные: ')
     if y == 'o':
+        count += 1
         continue
     if y == 'l':
         break
@@ -12,4 +13,4 @@ while len(x) <= 5:
 else:
     print(x)
 
-print('Программа завершена')
+print('Программа завершена', count)
